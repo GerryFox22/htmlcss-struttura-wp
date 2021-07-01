@@ -40,8 +40,12 @@ body{
     margin-bottom: 6px;
 }
 
-.external-column {
+
+.column {
     float: left;
+}
+
+.external-column {
     background-color: aqua;
     width: calc(25% - 5px);
     height: 250px;
@@ -50,7 +54,6 @@ body{
 }
 
 .central-column {
-    float: left;
     background-color: aqua;
     width: calc(50% - 10px);
     height: 250px;
